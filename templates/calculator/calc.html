@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% if not wrong %}
+<h1>{{ x }} {{ act }} {{ y }} = {{ res }}</h1>
+{% elif wrong %}
+<h1>{{ wrong }}</h1>
+{% endif %}
+</body>
+</html>
